@@ -1,0 +1,20 @@
+Identificar – Enunciar o problema
+Os carros e os pedestres utilizam a faixa ao mesmo tempo, o que gera risco de acidentes por falta de controle adequado.
+
+Analisar – Descrever as partes do problema
+O sistema envolve dois sinais:
+Um para os carros (verde, amarelo e vermelho)
+Um para os pedestres (verde e vermelho)
+O problema está na falta de sincronização entre esses sinais.
+
+Encontrar uma solução 
+Criar uma lógica onde:
+Primeiro os carros passam e os pedestres param
+Depois um tempo de atenção AMARELO
+Em seguida os carros param e os pedestres atravessam
+
+Implementar a solução 
+A solução foi implementada com Arduino, utilizando LEDs para representar os sinais e programação com tempos definidos para controlar a troca das luzes.
+
+Conclusão
+Graças a programação, os semáforos funcionaram corretamente.
