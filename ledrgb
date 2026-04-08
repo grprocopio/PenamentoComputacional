@@ -1,0 +1,3 @@
+Eu montei o circuito usando um Arduino, um LED RGB e três potenciômetros. Liguei cada cor do LED em um pino do Arduino com resistor, e o comum no GND.
+Depois conectei os três potenciômetros nos pinos analógicos (A0, A1 e A2). Nos blocos, eu fiz o Arduino ler cada potenciômetro e controlar a intensidade de cada cor do LED.
+Assim, quando eu giro os potenciômetros, consigo mudar as cores do LED RGB.
