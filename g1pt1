@@ -1,0 +1,54 @@
+
+Identifique as entradas e saídas do sistema:
+
+Entradas
+botão iniciar
+botão parar
+botão reset
+potenciômetro do tempo
+potenciômetro da intensidade
+
+Saídas
+LED verde
+LED amarelo
+LED vermelho
+3 LEDs de nível
+máquina (motor ou aquecedor)
+
+Apresente todos os componentes do sistema e para que eles servem:
+
+Componentes
+botões, serve pra dar comando
+potenciômetros, serve  pra ajustar tempo e intensidade
+Arduino, serve para fazer o controle
+LEDs, mostram o que tá acontecendo
+máquina,  faz o processo
+
+Apresente as regras de funcionamento a serem implementadas:
+
+Funcionamento
+começa parado  LED vermelho ligado
+apertou iniciar:
+lê o potenciômetro
+define o tempo (1 a 10s)
+liga a máquina
+LED amarelo aceso
+enquanto tá rodando:
+mostra intensidade com 1, 2 ou 3 LEDs
+se apertar iniciar de novo  não faz nada
+se acabar o tempo:
+desliga tudo
+volta pro início
+se apertar parar:
+para na hora
+se apertar reset: desliga tudo e reinicia
+
+Explique como você utilizaria estruturas if para controlar o sistema:
+
+Eu usaria  if para decidir o que o sistema faz dependendo dos botões e do estado da máquina.
+Por exemplo, se eu pressionar iniciar e o sistema estiver parado, eu começo o processo: leio o potenciômetro, defino o tempo e ligo os LEDs certos.
+Se eu apertar iniciar enquanto já estiver rodando, eu uso um if para não fazer nada.
+Se eu apertar parar, eu uso um if para parar tudo na hora e voltar o sistema para o estado de parado.
+Se eu apertar reset, eu uso outro if para desligar tudo e reiniciar o sistema.
+E para o segundo potenciômetro, eu uso if para ver o valor e acender 1, 2 ou 3 LEDs dependendo da intensidade.
+Basicamente, eu uso if para checar o botão pressionado e o estado do sistema antes de executar qualquer ação.
